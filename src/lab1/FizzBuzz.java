@@ -1,9 +1,7 @@
-package lab1;
-
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
-class FizzBuzz {
+public class FizzBuzz {
 
     public static void main(String[] args) {
         int i = 1;
@@ -15,7 +13,7 @@ class FizzBuzz {
         }
     }
 
-    private static void extracted(int i) {
+    public static void extracted(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
